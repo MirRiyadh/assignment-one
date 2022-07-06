@@ -13,10 +13,11 @@ Header Banner Section//////// */
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .header-banner-top {
-  padding: 200px 20%;
+  padding: 100px 20%;
   /* margin: 0 20%; */
 }
 
@@ -36,7 +37,7 @@ Header Banner Section//////// */
 }
 
 .button {
-  background-color: rgb(8, 80, 80);
+  background-image: linear-gradient(#67bcee, rgb(216, 121, 253));
   text-decoration: none;
   color: #ffff;
   padding: 20px 30px;
@@ -44,4 +45,141 @@ Header Banner Section//////// */
   font-weight: 700;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+/* ////////////
+spread your hands//////// */
+
+#spread-your-hands {
+  text-align: center;
+  padding: 0 33%;
+  margin-bottom: 100px;
+}
+
+#spread-your-hands h1 {
+  font-size: 40px;
+  color: rgb(97, 96, 96);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+#spread-your-hands p {
+  color: rgb(165, 165, 165);
+  font-size: 16px;
+  padding: 0 10%;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+#spread-your-hands ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: #fafafa;
+  padding: 30px 20px;
+  color: rgb(97, 97, 97);
+  margin-right: 20px;
+
+  font-weight: 600;
+}
+
+#spread-your-hands ul li:nth-child(2) {
+  background: rgb(201, 241, 253);
+  border: 2px solid #67bcee;
+}
+
+.amount {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.amount input {
+  border-style: none;
+  font-size: 16px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.button-two {
+  background-image: linear-gradient(#67bcee, rgb(216, 121, 253));
+  text-decoration: none;
+  color: #ffff;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+/* ////////////
+our donate program//////// */
+
+#our-donate-program {
+  text-align: center;
+  padding: 0 22%;
+  margin-bottom: 100px;
+}
+
+#our-donate-program h1 {
+  font-size: 40px;
+  color: rgb(97, 96, 96);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+/* this is first paragraph id design
+in our-donate-program section*/
+#para {
+  color: rgb(165, 165, 165);
+  font-size: 16px;
+  padding: 0 10%;
+  margin-bottom: 50px;
+  font-weight: 400;
+  padding: 0 15%;
+}
+
+.three-program {
+  display: flex;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.three-program img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.three-program h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #535555;
+  text-transform: capitalize;
+}
+
+.three-program p {
+  color: #838383;
+  font-weight: 400;
+}
+
+.three-program-design {
+  padding: 60px 30px;
+  margin-right: 20px;
+  width: 50%;
+}
+.healthy-food {
+  background-color: #edf5f6;
+  border-radius: 5px;
+}
+
+.shelter-famliy {
+  background-color: #ffeeee;
+  border-radius: 5px;
+}
+
+.education {
+  background-color: #fff4d6;
+  border-radius: 5px;
+}
+
+ {
 }
