@@ -4,6 +4,28 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/* //common classes for heading, paragraph & margin-bottom/// */
+
+.heading-design {
+  font-size: 40px;
+  color: rgb(97, 96, 96);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.paragraph-design {
+  color: rgb(165, 165, 165);
+  font-size: 16px;
+  padding: 0 5%;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.gap-bottom {
+  margin-bottom: 50px;
+}
+
 /* ////////////
 Header Banner Section//////// */
 #header-banner {
@@ -52,24 +74,8 @@ spread your hands//////// */
 
 #spread-your-hands {
   text-align: center;
-  padding: 0 35%;
-  margin-bottom: 100px;
-}
-
-#spread-your-hands h1 {
-  font-size: 40px;
-  color: rgb(97, 96, 96);
-  margin-bottom: 20px;
-  text-transform: capitalize;
-  font-weight: 600;
-}
-
-#spread-your-hands p {
-  color: rgb(165, 165, 165);
-  font-size: 16px;
-  padding: 0 5%;
-  margin-bottom: 30px;
-  font-weight: 400;
+  padding: 0 30%;
+  margin-bottom: 120px;
 }
 
 #spread-your-hands ul li {
@@ -89,7 +95,6 @@ spread your hands//////// */
 }
 
 .amount {
-  margin-top: 20px;
   margin-bottom: 50px;
 }
 
@@ -117,20 +122,12 @@ our donate program//////// */
 #our-donate-program {
   text-align: center;
   padding: 0 22%;
-  margin-bottom: 100px;
-}
-
-#our-donate-program h1 {
-  font-size: 40px;
-  color: rgb(97, 96, 96);
-  margin-bottom: 10px;
-  text-transform: capitalize;
-  font-weight: 600;
+  margin-bottom: 150px;
 }
 
 /* this is first paragraph id design
 in our-donate-program section*/
-#para {
+#paragraph-design {
   color: rgb(165, 165, 165);
   font-size: 16px;
   padding: 0 10%;
@@ -192,23 +189,6 @@ enlarge-your-hands//////// */
   text-align: center;
 }
 
-.text h1 {
-  font-size: 40px;
-  color: rgb(97, 96, 96);
-  margin-bottom: 10px;
-  text-transform: capitalize;
-  font-weight: 600;
-}
-
-.text p {
-  color: rgb(165, 165, 165);
-  font-size: 16px;
-  padding: 0 10%;
-  margin-bottom: 50px;
-  font-weight: 400;
-  padding: 0 20%;
-}
-
 .donate-bar {
   display: flex;
 }
@@ -237,7 +217,7 @@ enlarge-your-hands//////// */
 
 .status {
   background-color: #ffffff;
-  margin-right: 30px;
+  margin-right: 50px;
   border: 1px solid rgb(0, 183, 255);
 }
 
@@ -260,6 +240,7 @@ enlarge-your-hands//////// */
   font-weight: 600;
   font-size: 14px;
   color: #797878;
+  width: 92%;
 }
 
 .button-two {
@@ -272,26 +253,23 @@ enlarge-your-hands//////// */
   font-weight: 700;
   border-radius: 5px;
 }
+/* ////////////
+get our update//////// */
 
 #get-our-update {
   text-align: center;
   padding: 5% 30%;
 }
 
-#get-our-update h1 {
-}
-
-#get-our-update p {
-}
-
 .subscribe {
-  background-color: #67bcee;
-  padding: 100px 200px;
+  margin: auto;
+  background-color: #b6e1fa;
+  padding: 80px 200px;
   display: flex;
 }
 
 .subscribe input {
-  padding: 10px 40px;
+  padding: 10px 50px;
   text-align: left;
   outline: none;
 }
@@ -299,8 +277,30 @@ enlarge-your-hands//////// */
 .subscribe a {
   text-decoration: none;
   padding: 10px 30px;
-  background-color: #b35bc5;
+  background-color: #a85ab8;
   margin-left: -20px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+/* ////////////
+Footer design//////// */
+
+#footer-part {
+  background-color: #000000;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#footer-part h1 {
+  text-transform: capitalize;
+  color: rgb(51, 158, 201);
+  font-family: "Lobster", cursive;
+  font-size: 60px;
+}
+#footer-part p {
+  color: #fff;
 }
