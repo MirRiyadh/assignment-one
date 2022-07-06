@@ -52,7 +52,7 @@ spread your hands//////// */
 
 #spread-your-hands {
   text-align: center;
-  padding: 0 33%;
+  padding: 0 35%;
   margin-bottom: 100px;
 }
 
@@ -67,7 +67,7 @@ spread your hands//////// */
 #spread-your-hands p {
   color: rgb(165, 165, 165);
   font-size: 16px;
-  padding: 0 10%;
+  padding: 0 5%;
   margin-bottom: 30px;
   font-weight: 400;
 }
@@ -108,6 +108,7 @@ spread your hands//////// */
   font-size: 18px;
   font-weight: 700;
   border-radius: 5px;
+  margin-top: 100px;
 }
 
 /* ////////////
@@ -181,5 +182,125 @@ in our-donate-program section*/
   border-radius: 5px;
 }
 
- {
+/* ////////////
+enlarge-your-hands//////// */
+#enlarge-your-hands {
+  padding: 0 20%;
+  margin-bottom: 50px;
+}
+.text {
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 40px;
+  color: rgb(97, 96, 96);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.text p {
+  color: rgb(165, 165, 165);
+  font-size: 16px;
+  padding: 0 10%;
+  margin-bottom: 50px;
+  font-weight: 400;
+  padding: 0 20%;
+}
+
+.donate-bar {
+  display: flex;
+}
+.donate-bar-leftside img {
+  width: 100%;
+}
+.donate-bar-rightside {
+  background-color: rgb(185, 229, 255);
+  width: 60%;
+  height: auto;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.donate-bar-rightside h2 {
+  font-size: 35px;
+  color: #575757;
+  margin-bottom: 45px;
+}
+.donate-bar-rightside p {
+  font-size: 15px;
+  color: #575757;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.status {
+  background-color: #ffffff;
+  margin-right: 30px;
+  border: 1px solid rgb(0, 183, 255);
+}
+
+.status-bar {
+  width: 75%;
+  background-color: #b35bc5;
+  font-size: 12px;
+  padding: 5px 10px;
+  font-weight: 700;
+  color: #edf5f6;
+}
+
+.status span {
+  padding-left: 50%;
+}
+
+.donate-bar-rightside h6 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #797878;
+}
+
+.button-two {
+  margin-top: 100px;
+  background-image: linear-gradient(#67bcee, rgb(216, 121, 253));
+  text-decoration: none;
+  color: #ffff;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+#get-our-update {
+  text-align: center;
+  padding: 5% 30%;
+}
+
+#get-our-update h1 {
+}
+
+#get-our-update p {
+}
+
+.subscribe {
+  background-color: #67bcee;
+  padding: 100px 200px;
+  display: flex;
+}
+
+.subscribe input {
+  padding: 10px 40px;
+  text-align: left;
+  outline: none;
+}
+
+.subscribe a {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #b35bc5;
+  margin-left: -20px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
